@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/NumpadKeyStyle"
+            android:id="@+id/numpad1"
+            android:text="@string/kbtn_1"
+            android:tag="@string/kbtag_1"/>
+
+        <Button
+            style="@style/NumpadKeyStyle"
+            android:id="@+id/numpad2"
+            android:text="@string/kbtn_2"
+            android:tag="@string/kbtag_2"/>
+
+        <Button
+            style="@style/NumpadKeyStyle"
+            android:id="@+id/numpad3"
+            android:text="@string/kbtn_3"
+            android:tag="@string/kbtag_3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/NumpadKeyStyle"
+            android:id="@+id/numpad4"
+            android:text="@string/kbtn_4"
+            android:tag="@string/kbtag_4"/>
+
+        <Button
+            style="@style/NumpadKeyStyle"
+            android:id="@+id/numpad5"
+            android:text="@string/kbtn_5"
+            android:tag="@string/kbtag_5"/>
+
+        <Button
+            style="@style/NumpadKeyStyle"
+            android:id="@+id/numpad6"
+            android:text="@string/kbtn_6"
+            android:tag="@string/kbtag_6"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/NumpadKeyStyle"
+            android:id="@+id/numpad7"
+            android:text="@string/kbtn_7"
+            android:tag="@string/kbtag_7"/>
+
+        <Button
+            style="@style/NumpadKeyStyle"
+            android:id="@+id/numpad8"
+            android:text="@string/kbtn_8"
+            android:tag="@string/kbtag_8"/>
+
+        <Button
+            style="@style/NumpadKeyStyle"
+            android:id="@+id/numpad9"
+            android:text="@string/kbtn_9"
+            android:tag="@string/kbtag_9"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/NumpadKeyStyle"
+            android:id="@+id/numpadplus"
+            android:text="@string/kbtn_plus"
+            android:tag="@string/kbtag_plus"/>
+
+        <Button
+            style="@style/NumpadKeyStyle"
+            android:id="@+id/numpad0"
+            android:text="@string/kbtn_0"
+            android:tag="@string/kbtag_0"/>
+
+        <ImageButton
+            style="@style/NumpadKeyStyle"
+            android:id="@+id/numpaddelete"
+            android:tag="@string/kbtag_delete"
+            android:src="@drawable/delete_svgrepo_com"
+            android:contentDescription="@string/kbtag_delete" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:weightSum="30">
+
+        <Button
+            style="@style/LastRowStyle"
+            android:id="@+id/numpadabc"
+            android:text="@string/kbtn_abc"
+            android:tag="@string/kbtag_abc"
+            android:layout_weight="6" />
+
+        <Button
+            style="@style/LastRowStyle"
+            android:id="@+id/numpadcomma"
+            android:text="@string/kbtn_comma"
+            android:tag="@string/kbtag_comma"/>
+
+        <Button
+            style="@style/LastRowStyle"
+            android:id="@+id/numpadspace"
+            android:tag="@string/kbtag_space"
+            android:layout_weight="24"/>
+
+        <Button
+            style="@style/LastRowStyle"
+            android:id="@+id/numpadperiod"
+            android:text="@string/kbtn_period"
+            android:tag="@string/kbtag_period"/>
+
+        <ImageButton
+            style="@style/LowerCaseKeyStyle"
+            android:id="@+id/numpaddone"
+            android:tag="@string/kbtag_done"
+            android:src="@drawable/enter_svgrepo_com"
+            android:contentDescription="@string/kbtag_done" />
+    </LinearLayout>
+</LinearLayout>

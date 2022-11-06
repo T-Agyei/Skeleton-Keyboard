@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/UpperCaseKeyStyle"
+            android:id="@+id/uppershiftQ"
+            android:text="@string/kbtn_Q"
+            android:tag="@string/kbtag_Q"/>
+
+        <Button
+            style="@style/UpperCaseKeyStyle"
+            android:id="@+id/uppershiftW"
+            android:text="@string/kbtn_W"
+            android:layout_width="55dp"
+            android:tag="@string/kbtag_W"/>
+
+        <Button
+            style="@style/UpperCaseKeyStyle"
+            android:id="@+id/uppershiftE"
+            android:text="@string/kbtn_E"
+            android:tag="@string/kbtag_E"/>
+
+        <Button
+            style="@style/UpperCaseKeyStyle"
+            android:id="@+id/uppershiftR"
+            android:text="@string/kbtn_R"
+            android:tag="@string/kbtag_R"/>
+
+        <Button
+            style="@style/UpperCaseKeyStyle"
+            android:id="@+id/uppershiftT"
+            android:text="@string/kbtn_T"
+            android:tag="@string/kbtag_T"/>
+
+        <Button
+            style="@style/UpperCaseKeyStyle"
+            android:id="@+id/uppershiftY"
+            android:text="@string/kbtn_Y"
+            android:tag="@string/kbtag_Y"/>
+
+        <Button
+            style="@style/UpperCaseKeyStyle"
+            android:id="@+id/uppershiftU"
+            android:text="@string/kbtn_U"
+            android:tag="@string/kbtag_U"/>
+
+        <Button
+            style="@style/UpperCaseKeyStyle"
+            android:id="@+id/uppershiftI"
+            android:text="@string/kbtn_I"
+            android:tag="@string/kbtag_I" />
+
+        <Button
+            style="@style/UpperCaseKeyStyle"
+            android:id="@+id/uppershiftO"
+            android:text="@string/kbtn_O"
+            android:tag="@string/kbtag_O"/>
+
+        <Button
+            style="@style/UpperCaseKeyStyle"
+            android:id="@+id/uppershiftP"
+            android:text="@string/kbtn_P"
+            android:tag="@string/kbtag_P"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/UpperCaseKeyStyle"
+            android:id="@+id/uppershiftA"
+            android:text="@string/kbtn_A"
+            android:tag="@string/kbtag_A"/>
+
+        <Button
+            style="@style/LowerCaseKeyStyle"
+            android:id="@+id/uppershiftS"
+            android:text="@string/kbtn_S"
+            android:tag="@string/kbtag_S"/>
+
+        <Button
+            style="@style/UpperCaseKeyStyle"
+            android:id="@+id/uppershiftD"
+            android:text="@string/kbtn_D"
+            android:tag="@string/kbtag_D"/>
+
+        <Button
+            style="@style/UpperCaseKeyStyle"
+            android:id="@+id/uppershiftF"
+            android:text="@string/kbtn_F"
+            android:tag="@string/kbtag_F"/>
+
+        <Button
+            style="@style/UpperCaseKeyStyle"
+            android:id="@+id/uppershiftG"
+            android:text="@string/kbtn_G"
+            android:tag="@string/kbtag_G"/>
+
+        <Button
+            style="@style/UpperCaseKeyStyle"
+            android:id="@+id/uppershiftH"
+            android:text="@string/kbtn_H"
+            android:tag="@string/kbtag_H"/>
+
+        <Button
+            style="@style/UpperCaseKeyStyle"
+            android:id="@+id/uppershiftJ"
+            android:text="@string/kbtn_J"
+            android:tag="@string/kbtag_J"/>
+
+        <Button
+            style="@style/UpperCaseKeyStyle"
+            android:id="@+id/uppershiftK"
+            android:text="@string/kbtn_K"
+            android:tag="@string/kbtag_K"/>
+
+        <Button
+            style="@style/UpperCaseKeyStyle"
+            android:id="@+id/uppershiftL"
+            android:text="@string/kbtn_L"
+            android:tag="@string/kbtag_L"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            style="@style/UpperCaseKeyStyle"
+            android:id="@+id/uppershiftShift"
+            android:tag="@string/kbtag_shift"
+            android:src="@drawable/shift_svgrepo_com"
+            android:contentDescription="@string/kbtag_shift" />
+
+        <Button
+            style="@style/UpperCaseKeyStyle"
+            android:id="@+id/uppershiftZ"
+            android:text="@string/kbtn_Z"
+            android:tag="@string/kbtag_Z"/>
+
+        <Button
+            style="@style/UpperCaseKeyStyle"
+            android:id="@+id/uppershiftX"
+            android:text="@string/kbtn_X"
+            android:tag="@string/kbtag_X"/>
+
+        <Button
+            style="@style/UpperCaseKeyStyle"
+            android:id="@+id/uppershiftC"
+            android:text="@string/kbtn_C"
+            android:tag="@string/kbtag_C"/>
+
+        <Button
+            style="@style/UpperCaseKeyStyle"
+            android:id="@+id/uppershiftV"
+            android:text="@string/kbtn_V"
+            android:tag="@string/kbtag_V"/>
+
+        <Button
+            style="@style/LowerCaseKeyStyle"
+            android:id="@+id/uppershiftB"
+            android:text="@string/kbtn_B"
+            android:tag="@string/kbtag_B"/>
+
+        <Button
+            style="@style/UpperCaseKeyStyle"
+            android:id="@+id/uppershiftN"
+            android:text="@string/kbtn_N"
+            android:tag="@string/kbtag_N"/>
+
+        <Button
+            style="@style/UpperCaseKeyStyle"
+            android:id="@+id/uppershiftM"
+            android:text="@string/kbtn_M"
+            android:tag="@string/kbtag_M"/>
+
+        <ImageButton
+            style="@style/UpperCaseKeyStyle"
+            android:id="@+id/uppershiftdelete"
+            android:tag="@string/kbtag_delete"
+            android:src="@drawable/delete_svgrepo_com"
+            android:contentDescription="@string/kbtag_delete" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:weightSum="36">
+
+        <Button
+            style="@style/LastRowStyle"
+            android:id="@+id/uppershift123"
+            android:text="@string/kbtn_numpad"
+            android:tag="@string/kbtag_numpad"
+            android:layout_weight="6"/>
+
+        <Button
+            style="@style/LastRowStyle"
+            android:id="@+id/uppershiftabc"
+            android:text="@string/kbtn_abc"
+            android:tag="@string/kbtag_abc"
+            android:layout_weight="6" />
+
+        <Button
+            style="@style/LastRowStyle"
+            android:id="@+id/uppershiftcomma"
+            android:text="@string/kbtn_comma"
+            android:tag="@string/kbtag_comma"/>
+
+        <Button
+            style="@style/LastRowStyle"
+            android:id="@+id/uppershiftspace"
+            android:tag="@string/kbtag_space"
+            android:layout_weight="24"/>
+
+        <Button
+            style="@style/LastRowStyle"
+            android:id="@+id/uppershiftperiod"
+            android:text="@string/kbtn_period"
+            android:tag="@string/kbtag_period"/>
+
+        <ImageButton
+            style="@style/LowerCaseKeyStyle"
+            android:id="@+id/uppershiftdone"
+            android:tag="@string/kbtag_done"
+            android:src="@drawable/enter_svgrepo_com"
+            android:contentDescription="@string/kbtag_done" />
+    </LinearLayout>
+</LinearLayout>
